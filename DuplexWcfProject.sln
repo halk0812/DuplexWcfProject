@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplexWcfService", "DuplexWcfService\DuplexWcfService.csproj", "{24D6A810-E4C7-4DB3-937B-D3A41E741A9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWcfClient", "ConsoleWcfClient\ConsoleWcfClient.csproj", "{334B9D38-44AB-4E35-A4CA-A30B8493C3CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24D6A810-E4C7-4DB3-937B-D3A41E741A9E} = {24D6A810-E4C7-4DB3-937B-D3A41E741A9E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{24D6A810-E4C7-4DB3-937B-D3A41E741A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24D6A810-E4C7-4DB3-937B-D3A41E741A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24D6A810-E4C7-4DB3-937B-D3A41E741A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334B9D38-44AB-4E35-A4CA-A30B8493C3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334B9D38-44AB-4E35-A4CA-A30B8493C3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334B9D38-44AB-4E35-A4CA-A30B8493C3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334B9D38-44AB-4E35-A4CA-A30B8493C3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
